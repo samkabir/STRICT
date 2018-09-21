@@ -1,0 +1,309 @@
+/*Global CSS*/
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+body{
+	overflow-x: none;
+	overflow-y: auto;
+}
+
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+
+/* Header Section*/
+header{
+	background-color: f6f9f9;
+	height: 100px;
+}
+.logo{
+	padding-top: 25px
+}
+
+/* Banner section  */
+.banner {
+	background: url(../Pictures/banner.png) no-repeat;
+	background-size: cover;
+	text-align: center;
+	margin: 0 auto;
+	display: block;
+	height: 1000px;
+}
+.banner-text{
+	text-align: center;
+
+}
+.banner-text h1{
+	font-size: 125px;
+	padding-top: 278px;
+	color: white;
+}
+.banner-text p{
+    font-size: 25px;
+    border-top: 1px solid #44C1F2;
+    width: 700px;
+    margin: 0 auto;
+    padding-top: 20px;
+    color: white	
+}
+.banner-button{
+	margin: 100px auto;
+	display: block;
+	width: 220px;
+	height: 36px;
+	text-decoration: none;
+	padding: 10px 10px;
+	border:1px solid #15a4fa;
+	text-align: center;
+	transition: 0.5s;
+	font-size: 28px;
+	font-weight: 100;
+	color: white;
+}
+.banner-button:hover{
+	background-color: #15a4fa;
+
+}
+/*Description section*/
+.container-simple{
+	height: 340px;
+	background-color: #edf1f1;
+	text-align: center;
+}
+.description{
+	width: 1140px;
+	margin: 0 auto;
+	display: block;
+}
+.description p{
+	font-weight: 100;
+	color: #B2B3B3;
+	font-weight: 300;
+	word-spacing: 6px;
+}
+.description h3{
+	font-size: 44px;
+	padding-top: 100px;
+	font-weight: 300;
+	color: #544F5A;
+}
+/*Features Section*/
+.container-features{
+	width: 1140px;
+	margin: 0 auto;
+	display: block;
+	height: 350px;
+}
+.cf-responsive{
+	float: left;
+    padding-top: 105px;
+    padding-bottom: 105px;
+    text-align: center;
+    width: 33.3%;
+    
+}
+.cf-responsive h4{
+	font-size: 25px;
+    font-weight: 400;
+    color: #2D3950;
+}
+.cf-responsive p{
+	color: #BBBBBB;
+    font-size: 17px;
+    font-weight: 100;
+    width: 363px;
+}
+
+/*Portfolio Section*/
+.container-bg{
+	background-color: #f6f9f9;
+	height:900px;
+}
+.container-portfolio{
+	width: 1140px;
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+}
+.container-portfolio h3{
+    font-size: 32px;
+    font-weight: 400;
+}
+.container-portfolio p{
+    font-size: 17px;
+    font-weight: 200;
+}
+.portfolio-img{
+	border-radius: 5px;
+	position: relative;
+	height: 260px;
+    width: 360px;
+    float: left;
+    padding: 0 0 24px 19px;
+    transition: 0.3s;
+}
+.portfolio-hover-content{
+	border-radius: 5px;
+	position: absolute;
+    width: 95%;
+    height: 92%;
+    float: left;
+    top: 0;
+    right: 0%;
+    opacity: 0;
+
+}
+.portfolio-img:hover .portfolio-hover-content{
+	cursor: pointer;
+	opacity: 1;
+
+}
+/*Stay with us Section*/
+.container-stay{
+	background: url(../Pictures/Staywithus.png) no-repeat;
+	text-align: center;
+	background-size: cover;
+	margin: 0 auto;
+	height: 700px;
+}
+.container-stay h3{
+	color: white;
+	font-size: 70px;
+	font-weight: 300;
+}
+.container-stay h4{
+	color: #75787d;
+    font-size: 21px;
+    font-weight: 300;
+    padding-bottom: 50px;
+}
+.form{
+	width: 550px;
+	margin: 0 auto;
+}
+.stay-form-control{
+    margin-top: 25px;
+    background: transparent;
+    border: 1px solid #7F8186;
+    padding-left: 27px;
+    opacity: 0.5;
+    font-size: 25px;
+    height: 70px;
+    width: 100%;
+    border-radius: 10px;
+}
+.checkbox{
+	background-color: #9ba1ab;
+    float: left;
+    margin-top: 28px;
+
+}
+.para{
+	float: left;
+    color: white;
+    margin-top: 25px;
+    margin-left: 7px;
+}
+.stay-button{
+    margin-right: -5%;
+    margin-top: 15px;
+    float: right;
+    padding: 11px 33px;
+    border-radius: 5px;
+    border: 1px solid #1B89CF;
+    font-size: 15px;
+    background: transparent;
+    color: white
+
+}
+.stay-button:hover{
+	background-color: #1B89CF;
+	transition: 0.5s;
+	color: white;
+	cursor: pointer;
+}
+.form-message{
+    border: 1px solid #7F8186;
+    margin-top: 18px;
+    padding-left: 27px;
+    padding-top: 24px;
+    font-size: 25px;
+    background: transparent;
+    width: 100%;
+    height: 160px;
+    border-radius: 10px;
+}
+/*Footer Section*/
+.footer-container{
+	width:1140px;
+	margin: 0 auto;
+	height: 100px;
+}
+.copyright p{
+	font-size: 19px;
+    font-weight: 400;
+    padding-top: 35px;
+    color: #999999;
+}
+.copyright{
+	width: 50%;
+    float: left;
+    height: 100px;
+}
+.Icons{
+	width: 50%;
+    float: left;
+    height: 100px;
+    text-align: right;
+    padding-top: 20px;
+}
+
+
+.fa-facebook{
+	border: 1px solid #15A4FA;
+	padding: 11px 15px;
+	border-radius: 3px;
+	background-color: #15A4FA;
+	color: white;
+	transition: 0.3s;
+}
+.fa-facebook:hover{
+	background-color: #4267B2;
+	cursor:pointer;
+}
+.fa-twitter{
+	border: 1px solid #15A4FA;
+	padding: 11px 12px;
+	border-radius: 3px;
+	background-color: #15A4FA;
+	color: white;
+}
+.fa-twitter:hover{
+	cursor: pointer;
+	background-color: #1DA1F2;
+}
+.fa-google-plus{
+	border: 1px solid #15A4FA;
+	padding: 11px 8px;
+	border-radius: 3px;
+	background-color: #15A4FA;
+	color: white;
+}
+.fa-google-plus:hover{
+	cursor: pointer;
+	background-color: orange;
+}
+.fa-linkedin{
+	border: 1px solid #15A4FA;
+	padding: 11px 11px;
+	border-radius: 3px;
+	background-color: #15A4FA;
+	color: white;
+}
+.fa-linkedin:hover{
+	cursor: pointer;
+	background-color: #0077B5;
+}
